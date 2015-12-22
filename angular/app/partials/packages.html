@@ -10,12 +10,12 @@
       <td class="package-info">
         <h5>{{packagedata.from}}</h5>
         <h6>
-          &#32 From: {{packagedata.shippingFrom}}
+          From: {{packagedata.shippingFrom}}
         </h6>
         <h6 ng-if="packagedata.shippingTo">
-          &#32 Destination: {{packagedata.shippingTo}}
+          Destination: {{packagedata.shippingTo}}
         </h6>
-        <h6>&#32 Location: {{packagedata.currentLocation}}</h6>
+        <h6>Location: {{packagedata.currentLocation}}</h6>
       </td>
       <td class="package-service">
         <img ng-if="packagedata.service === 'UPS'" ng-src="/img/ups.png" class="ups-img"/>

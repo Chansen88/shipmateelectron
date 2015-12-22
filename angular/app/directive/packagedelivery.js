@@ -13,7 +13,7 @@
         link: function(scope) {
           if (scope.packagedata.delivered === true) {
             scope.packagedata.whenDelivered = 'Delivered';
-          } else if (scope.packagedata.deliveryDate === 'undefined' || scope.packagedata.deliveryDate === null) {
+          } else if (!scope.packagedata.deliveryDate || scope.packagedata.deliveryDate === 'undefined') {
             scope.packagedata.whenDelivered = 'Delivery not scheduled.';
           } else if (moment(scope.packagedata.deliveryDate).diff(moment()) <= 0) {
             scope.packagedata.delivered = true;

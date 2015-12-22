@@ -11,7 +11,6 @@
           }
           vm.packageinfo = Packages.packageInfo;
           Packages.getEmailList($rootScope.accesstoken.access_token);
-
           vm.refresh = function() {
             Packages.addPackages();
           };
