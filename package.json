@@ -15,5 +15,10 @@
     "fs-jetpack": "^0.7.1",
     "q": "^1.4.1",
     "rcedit": "^0.3.0"
+  },
+  "dependencies": {
+    "electron-google-oauth": "^1.1.4",
+    "fix-path": "^1.1.0",
+    "menubar": "^3.0.0"
   }
 }
