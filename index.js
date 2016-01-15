@@ -52,5 +52,4 @@ mb.on('ready', function() {
 
 mb.on('after-create-window', function() {
   mb.window.loadURL('https://nameless-gorge-4169.herokuapp.com/');
-  mb.window.openDevTools()
 });
