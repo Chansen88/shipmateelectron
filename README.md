@@ -7,5 +7,6 @@ You should be able to run the .app file that links to my heroku server that is h
 The github repository for the web app is located below.
 [AngularJS Web app and Express API ](https://github.com/Chansen88/shipmate)
 
-Feel free to fork this repository and improve the application.
+![screenshot](https://github.com/Chansen88/shipmate/blob/master/screenshot.png)
 
+Feel free to fork this repository and improve the application.
